@@ -62,7 +62,7 @@ class CoffeeShopSimulator:
                 running = False
                 continue
             else:
-                cup_price = int(response)
+                cup_price = float(response)
 
             # Do they want to buy more coffee inventory?
             print("\nIt costs $1 for the necessary inventory to make a cup of coffee.")
